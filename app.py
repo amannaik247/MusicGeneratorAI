@@ -9,7 +9,7 @@ def query(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
     return response.content
 
-st.title("Music Generator")
+st.title("Music-AI")
 st.write("Generate sample music by entering a prompt below:")
 
 # Pre-existing sample prompts
